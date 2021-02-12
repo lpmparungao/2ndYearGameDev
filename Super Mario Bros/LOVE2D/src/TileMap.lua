@@ -1,12 +1,3 @@
---[[
-    GD50
-    Super Mario Bros. Remake
-
-    -- TileMap Class --
-]]
-
-TileMap = Class{}
-
 function TileMap:init(width, height)
     self.width = width
     self.height = height

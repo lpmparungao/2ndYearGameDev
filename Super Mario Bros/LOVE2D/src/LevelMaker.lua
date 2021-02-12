@@ -1,13 +1,3 @@
---[[
-    GD50
-    Super Mario Bros. Remake
-
-    -- LevelMaker Class --
-
-    Author: Colton Ogden
-    cogden@cs50.harvard.edu
-]]
-
 LevelMaker = Class{}
 
 function LevelMaker.generate(width, height)
