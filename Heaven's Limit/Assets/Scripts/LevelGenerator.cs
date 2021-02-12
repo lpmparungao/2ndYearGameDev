@@ -19,7 +19,7 @@ public class LevelGenerator : MonoBehaviour
 
         for (int i = 0; i < numberOfPlatforms; i++)
         {
-            spawnPosition.y += 0.57f;
+            spawnPosition.y += 0.7f;
             color = Random.Range(1, 3);
             if (color <= 1)
             {

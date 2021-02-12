@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public float jumpSpeed = 3.5f;
+    public float jumpSpeed = 3.8f;
     private Rigidbody2D rigidBody;
     public Transform groundCheckPoint;
     public float groundCheckRadius;
