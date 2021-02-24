@@ -577,7 +577,7 @@ function player:hurt(damage)
   damage = damage + math.random(0, 1)
   if self.damaged == 0 then
     self.damaged = 1
-    
+
     --[[IMMUNE KO MUNA PARA NAMAN MAKARATING AKO SA DULO NG HINDI NAMAMATAY
     UNCOMMENT MO NALANG TONG NASA BABA PARA OK NA UNG HEALTH NG PLAYER]]
     self.health = self.health - damage
